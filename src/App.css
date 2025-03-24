@@ -10,11 +10,12 @@
 
 .main {
   width: 100vw;
-  min-height: 100vh;
-  position: fixed;
+  /* min-height: 100vh; */
+  /* position: fixed; */
   display: flex;
-  justify-content: center;
-  padding: 120px 24px 160px 24px;
+  /* justify-content: center; */
+  /* padding: 120px 24px 160px 24px; */
+  padding: 0px 120px !important;
   pointer-events: none;
 }
 
@@ -49,9 +50,9 @@
       hsla(215, 98%, 61%, 1) 0px,
       transparent 0%
     ),
-    radial-gradient(at 97% 21%, hsla(125, 98%, 72%, 1) 0px, transparent 50%),
-    radial-gradient(at 52% 99%, hsla(354, 98%, 61%, 1) 0px, transparent 50%),
-    radial-gradient(at 10% 29%, hsla(256, 96%, 67%, 1) 0px, transparent 50%),
+    radial-gradient(at 97% 21%, rgb(114, 242, 254) 0px, transparent 50%),
+    radial-gradient(at 52% 99%, rgba(32, 193, 104, 0.542) 0px, transparent 50%),
+    radial-gradient(at 10% 29%, rgb(114, 250, 191) 0px, transparent 50%),
     radial-gradient(at 97% 96%, hsla(38, 60%, 74%, 1) 0px, transparent 50%),
     radial-gradient(at 33% 50%, hsla(222, 67%, 73%, 1) 0px, transparent 50%),
     radial-gradient(at 79% 53%, hsla(343, 68%, 79%, 1) 0px, transparent 50%);
